@@ -18,11 +18,11 @@ DirectDetectionAnalyze/
 ├── filtered_results.xlsx        # Output Excel file (created on run, can be regenerated)
 ├── example_plot.png             # Sample 3D plot (can be regenerated)
 └── ExampleData/
-    └── 150/
-        ├── 100.txt
-        ├── 150.txt
+    └── 150/					 # Fixed mediator mass (M_r) used as input parameter
+        ├── 100.txt				 # Grid file for DM particle mass = 100 GeV
+        ├── 150.txt				 # Grid file for DM particle mass = 150 GeV
         └── ...                  # Raw simulation results from CompHEP
-
+```
 		
 ## How to Run
 
