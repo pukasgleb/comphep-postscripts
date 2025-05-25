@@ -8,19 +8,7 @@ This folder contains a complete and ready-to-use set of scripts for analyzing da
 2. **Select representative values of sin(θ)** according to a custom rule.
 3. **Visualize sin(θ)** across a 2D model space defined by `m_hi` and `λ`.
 
-## Folder Structure
-
-DirectDetectionAnalyze/
-├── filter_by_experiment.py         # Filtering of CompHEP data using LUX-ZEPLIN upper limits
-├── interpolate_and_plot.py         # Visualizes max sin(θ) from filtered results
-├── lux_zeplin.xlsx                 # Experimental limits on cross-section: sigma_exp(m_exp)
-├── filtered_results.xlsx           # Output Excel file (created on run, can be regenerated)
-├── example_plot.png                # Sample 3D plot (can be regenerated)
-└── ExampleData/
-    └── 150/
-        ├── 100.txt
-        ├── 150.txt
-        └── ...                     # Raw simulation results from CompHEP
+<pre lang="markdown"> ## Folder Structure ```text DirectDetectionAnalyze/ ├── filter_by_experiment.py # Filtering of CompHEP data using LUX-ZEPLIN upper limits ├── interpolate_and_plot.py # Visualizes max sin(θ) from filtered results ├── lux_zeplin.xlsx # Experimental limits on cross-section: sigma_exp(m_exp) ├── filtered_results.xlsx # Output Excel file (created on run, can be regenerated) ├── example_plot.png # Sample 3D plot (can be regenerated) └── ExampleData/ └── 150/ ├── 100.txt ├── 150.txt └── ... # Raw simulation results from CompHEP ``` </pre>
 		
 ## How to Run
 
