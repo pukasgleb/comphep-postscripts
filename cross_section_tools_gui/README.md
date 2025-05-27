@@ -9,21 +9,22 @@ All scripts are independent but share the same data structure and style.
 ## Directory Structure
 
 All scripts assume the following folder organization:
-```
+
+```text
 cross_section_tools_gui/							
-├── pair production/		          	# Process type 1
-│ ├── 14/			                      # √s = 14 TeV center-of-mass energy
-│ │ ├── 2X/		                  	  # Final state: 2 particles 
-│ │ │ └── M_r_sin_theta_Lambda/			# Fixed parameter configuration 
-│ │ │ ├── phi_phi.txt			          # Grid data file (cross-section vs mass) for a specific final state
-│ │ │	├── phia_phia_conj.txt		  	# Another final state channel
-│ │	│	└── ...
-│ │ ├── 3X/			                    # Final state: 3 particles
-│ │ ├── 4X/			                    # Final state: 4 particles
-│ │ └── Sum/			                  # Auto-generated smoothed sums (created by sum_and_smooth.py)
-│ └── 100/			                    # √s = 100 TeV (same internal structure)
-├── associated production/		    	# Process type 2
-└── weak t-channel process/			    # Process type 3
+├── pair production/               # Process type 1
+│ ├── 14/                          # √s = 14 TeV center-of-mass energy
+│ │ ├── 2X/                        # Final state: 2 particles 
+│ │ │ └── M_r_sin_theta_Lambda/    # Fixed parameter configuration 
+│ │ │ ├── phi_phi.txt              # Grid data file (cross-section vs mass) for a specific final state
+│ │ │ ├── phia_phia_conj.txt       # Another final state channel
+│ │ │ └── ...
+│ │ ├── 3X/                        # Final state: 3 particles
+│ │ ├── 4X/                        # Final state: 4 particles
+│ │ └── Sum/                       # Auto-generated smoothed sums (created by sum_and_smooth.py)
+│ └── 100/                         # √s = 100 TeV (same internal structure)
+├── associated production/         # Process type 2
+└── weak t-channel process/        # Process type 3
 ```
 
 ---
