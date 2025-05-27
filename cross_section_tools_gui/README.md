@@ -16,9 +16,9 @@ cross_section_tools_gui/
 │ ├── 14/                          # √s = 14 TeV center-of-mass energy
 │ │ ├── 2X/                        # Final state: 2 particles 
 │ │ │ └── M_r_sin_theta_Lambda/    # Fixed parameter configuration 
-│ │ │ ├── phi_phi.txt              # Grid data file (cross-section vs mass) for a specific final state
-│ │ │ ├── phia_phia_conj.txt       # Another final state channel
-│ │ │ └── ...
+│ │ │   ├── phi_phi.txt            # Grid data file (cross-section vs mass) for a specific final state
+│ │ │   ├── phia_phia_conj.txt     # Another final state channel
+│ │ │   └── ...
 │ │ ├── 3X/                        # Final state: 3 particles
 │ │ ├── 4X/                        # Final state: 4 particles
 │ │ └── Sum/                       # Auto-generated smoothed sums (created by sum_and_smooth.py)
