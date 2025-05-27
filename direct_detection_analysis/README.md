@@ -46,3 +46,13 @@ This script:
 - reads `filtered_results.xlsx`,
 - interpolates sin(θ) values,
 - saves a 3D plot to `example_plot.png`.
+
+### Requirements
+
+These scripts require Python 3.9+ and the following Python libraries:
+
+- `numpy` 
+- `pandas` 
+- `matplotlib`
+- `scipy` 
+- `openpyxl` 
