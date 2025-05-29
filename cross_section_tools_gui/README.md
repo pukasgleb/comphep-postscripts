@@ -11,17 +11,17 @@ All scripts are independent but share the same data structure and style.
 All scripts assume the following folder organization:
 ```
 cross_section_tools_gui/							
-├── pair production/				# Process type 1
-│ ├── 14/							# √s = 14 TeV center-of-mass energy
-│ │ ├── 2X/							# Final state: 2 particles 
-│ │ │ └── M_r_sin_theta_Lambda/		# Fixed parameter configuration 
-│ │ │   ├── phi_phi.txt				# Grid data file (cross-section vs mass) for a specific final state
-│ │ │	├── phia_phia_conj.txt		# Another final state channel
-│ │	│   └── ...
-│ │ ├── 3X/							# Final state: 3 particles
-│ │ ├── 4X/							# Final state: 4 particles
-│ │ └── Sum/						# Auto-generated smoothed sums (created by sum_and_smooth.py)
-│ └── 100/							# √s = 100 TeV (same internal structure)
+├── pair production/			# Process type 1
+│ ├── 14/			# √s = 14 TeV center-of-mass energy
+│ │ ├── 2X/			# Final state: 2 particles 
+│ │ │ └── M_r_sin_theta_Lambda/			# Fixed parameter configuration 
+│ │ │   ├── phi_phi.txt			# Grid data file (cross-section vs mass) for a specific final state
+│ │ │	├── phia_phia_conj.txt			# Another final state channel
+│ │	│	└── ...
+│ │ ├── 3X/			# Final state: 3 particles
+│ │ ├── 4X/			# Final state: 4 particles
+│ │ └── Sum/			# Auto-generated smoothed sums (created by sum_and_smooth.py)
+│ └── 100/			# √s = 100 TeV (same internal structure)
 ├── associated production/			# Process type 2
 └── weak t-channel process/			# Process type 3
 ```
@@ -33,10 +33,10 @@ cross_section_tools_gui/
 Note: All GUIs require no arguments — just run the script directly.
 
 **Tips:**
--You can drag points on the plot when editing is enabled.
--Edited data is automatically backed up as .bak on first change.
--Plot title fields support full LaTeX syntax (e.g., $\sqrt{s}=14\,\mathrm{TeV}$).
--Saved images are exported in .png at 300 DPI.
+- You can drag points on the plot when editing is enabled.
+- Edited data is automatically backed up as .bak on first change.
+- Plot title fields support full LaTeX syntax (e.g., $\sqrt{s}=14\,\mathrm{TeV}$).
+- Saved images are exported in .png at 300 DPI.
 
 ### 1. `cross_section_viewer_gui.py`  
 **Purpose:**  
